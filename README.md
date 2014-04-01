@@ -1,6 +1,6 @@
 # gulp-autocompletion-zsh
 
-> Autocompletion for your gulp tasks in the Z-Shell (zsh).
+> Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
 
 ## Installation
 
