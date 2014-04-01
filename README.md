@@ -10,10 +10,13 @@ Install with npm or manually.
 
     $ npm install -g gulp-autocompletion-zsh
 
+After that you have to restart your `zsh`.
+
 ### Manually
 
 1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/gulp-autocompletion-zsh`)
 2. `source` the file in your `.zshrc`
+3. Restart your `zsh`
 
 ```sh
 # Your .zshrc
@@ -35,7 +38,7 @@ Exemplary output:
 
 ### Version 0.1.1 (20140401)
 
-- Activating the extension after installation.
+- Added note to README that you have to restart your zsh after installation.
 
 ### Version 0.1.0 (20140401)
 

@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "postinstall": "DEST=$HOME/.gulp-autocompletion-zsh; mkdir -p $DEST && ln -fs \"$PWD/gulp-autocompletion.zsh\" $DEST/gulp-autocompletion.zsh && echo source $DEST/gulp-autocompletion.zsh >> $HOME/.zshrc && source $HOME/.zshrc"
+    "postinstall": "DEST=$HOME/.gulp-autocompletion-zsh; mkdir -p $DEST && ln -fs \"$PWD/gulp-autocompletion.zsh\" $DEST/gulp-autocompletion.zsh && echo source $DEST/gulp-autocompletion.zsh >> $HOME/.zshrc"
   },
   "repository": {
     "type": "git",
