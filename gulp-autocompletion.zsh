@@ -2,6 +2,8 @@
 
 #
 # gulp-autocompletion-zsh
+# 
+# Autocompletion for your gulp.js tasks
 #
 # Copyright(c) 2014 André König <andre.koenig@posteo.de>
 # MIT Licensed
@@ -14,7 +16,7 @@
 #
 
 #
-# Greps all available tasks from the `gulpfile.js`
+# Grabs all available tasks from the `gulpfile.js`
 # in the current directory.
 #
 function $$gulp_completion() {
