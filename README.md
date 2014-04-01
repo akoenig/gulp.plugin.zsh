@@ -33,6 +33,10 @@ Exemplary output:
 
 ## Changelog
 
+### Version 0.1.1 (20140401)
+
+- Activating the extension after installation.
+
 ### Version 0.1.0 (20140401)
 
 - Implemented core functionality for suggesting the tasks on TAB.

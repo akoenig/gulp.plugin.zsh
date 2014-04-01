@@ -1,6 +1,6 @@
 {
   "name": "gulp-autocompletion-zsh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Autocompletion for your gulp.js tasks in the Z-Shell (zsh)",
   "author": {
     "name": "André König",
@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "postinstall": "DEST=$HOME/.gulp-autocompletion-zsh; mkdir -p $DEST && ln -fs \"$PWD/gulp-autocompletion.zsh\" $DEST/gulp-autocompletion.zsh && echo source $DEST/gulp-autocompletion.zsh >> $HOME/.zshrc"
+    "postinstall": "DEST=$HOME/.gulp-autocompletion-zsh; mkdir -p $DEST && ln -fs \"$PWD/gulp-autocompletion.zsh\" $DEST/gulp-autocompletion.zsh && echo source $DEST/gulp-autocompletion.zsh >> $HOME/.zshrc && source $HOME/.zshrc"
   },
   "repository": {
     "type": "git",
