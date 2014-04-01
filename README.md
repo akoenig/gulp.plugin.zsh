@@ -31,6 +31,12 @@ Exemplary output:
     λ build book → git master* → gulp
     appendix    concat      glossary     pdf    spellcheck  toc   build       default     lof         preface     statistics  
 
+## Changelog
+
+### Version 0.1.0 (20140401)
+
+- Implemented core functionality for suggesting the tasks on TAB.
+
 ## Author
 
 Copyright 2014, [André König](http://iam.andrekoenig.info) (andre.koenig@posteo.de)
