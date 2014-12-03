@@ -12,6 +12,7 @@ Install with npm or manually.
 
 After that you have to restart your `zsh`.
 
+
 ### Manually
 
 1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/gulp-autocompletion-zsh`)
@@ -22,6 +23,11 @@ After that you have to restart your `zsh`.
 # Your .zshrc
 source $HOME/zsh-extensions/gulp-autocompletion-zsh/gulp-autocompletion.zsh
 ```
+
+### Via antigen
+
+    $ antigen bundle akoenig/gulp-autocompletion-zsh
+
 
 ## Usage
 
