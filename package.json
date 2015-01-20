@@ -1,7 +1,7 @@
 {
   "name": "gulp-autocompletion-zsh",
-  "version": "0.1.2",
-  "description": "Autocompletion support for your gulp.js tasks in the Z-Shell (zsh)",
+  "version": "0.1.3",
+  "description": "Autocompletion support for your gulp.js tasks (zsh).",
   "author": {
     "name": "André König",
     "email": "andre.koenig@posteo.de"

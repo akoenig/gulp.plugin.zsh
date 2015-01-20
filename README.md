@@ -40,21 +40,7 @@ Exemplary output:
     λ build book → git master* → gulp
     appendix    concat      glossary     pdf    spellcheck  toc   build       default     lof         preface     statistics  
 
-## Changelog
-
-### Version 0.1.2 (20150120)
-
-- Fixed URL in the `package.json`.
-
-### Version 0.1.1 (20140401)
-
-- Added note to README that you have to restart your zsh after installation.
-
-### Version 0.1.0 (20140401)
-
-- Implemented core functionality for suggesting the tasks on TAB.
-
 ## Author
 
-Copyright 2014, [André König](http://iam.andrekoenig.info) (andre.koenig@posteo.de)
+Copyright 2014-2015, [André König](http://iam.andrekoenig.info) (andre.koenig@posteo.de)
 
