@@ -1,7 +1,7 @@
 {
   "name": "gulp-autocompletion-zsh",
-  "version": "0.1.1",
-  "description": "Autocompletion for your gulp.js tasks in the Z-Shell (zsh)",
+  "version": "0.1.2",
+  "description": "Autocompletion support for your gulp.js tasks in the Z-Shell (zsh)",
   "author": {
     "name": "André König",
     "email": "andre.koenig@posteo.de"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/akoenig/gulp-completion-zsh"
+    "url": "git://github.com/akoenig/gulp-autocompletion-zsh"
   },
   "keywords": [
     "zsh",
@@ -21,7 +21,7 @@
     "gulp"
   ],
   "bugs": {
-    "url": "https://github.com/akoenig/gulp-completion-zsh/issues"
+    "url": "https://github.com/akoenig/gulp-autocompletion-zsh/issues"
   },
-  "homepage": "https://github.com/akoenig/gulp-completion-zsh"
+  "homepage": "https://github.com/akoenig/gulp-autocompletion-zsh"
 }
