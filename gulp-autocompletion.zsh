@@ -16,11 +16,11 @@
 #
 
 #
-# Grabs all available tasks from the `gulpfile.js`
-# in the current directory.
+# Grabs all available tasks from any `gulpfile.js` or
+# `gulpfile.coffee` in the current directory.
 #
 function $$gulp_completion() {
-    compls=$(grep -Eo "gulp.task\(('(([a-zA-Z0-9]|-)*)',)" gulpfile.js 2>/dev/null | grep -Eo "'(([a-zA-Z0-9]|-)*)'" | sed s/"'"//g | sort)
+    compls=$(grep -Eho "gulp\.task[^,]*" gulpfile.* 2>/dev/null | sed s/\"/\'/g | cut -d "'" -f 2 | sort)
 
     completions=(${=compls})
     compadd -- $completions
