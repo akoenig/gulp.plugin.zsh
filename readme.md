@@ -1,4 +1,4 @@
-# gulp-autocompletion-zsh
+# gulp.plugin.zsh
 
 > Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
 
@@ -8,25 +8,25 @@ Install with npm or manually.
 
 ### Via npm
 
-    $ npm install -g gulp-autocompletion-zsh
+    $ npm install -g gulp.plugin.zsh
 
 After that you have to restart your `zsh`.
 
 
 ### Manually
 
-1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/gulp-autocompletion-zsh`)
+1. Clone this repository to your favorite path (e.g. `~/zsh-extensions/gulp.plugin.zsh`)
 2. `source` the file in your `.zshrc`
 3. Restart your `zsh`
 
 ```sh
 # Your .zshrc
-source $HOME/zsh-extensions/gulp-autocompletion-zsh/gulp-autocompletion.zsh
+source $HOME/zsh-extensions/gulp.plugin.zsh/gulp-autocompletion.zsh
 ```
 
 ### Via antigen
 
-    $ antigen bundle akoenig/gulp-autocompletion-zsh
+    $ antigen bundle akoenig/gulp.plugin.zsh
 
 
 ## Usage
