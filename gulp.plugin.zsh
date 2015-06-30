@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 #
 # gulp-autocompletion-zsh
 # 
@@ -19,11 +17,11 @@
 # Grabs all available tasks from any `gulpfile.js` or
 # `gulpfile.coffee` in the current directory.
 #
-function $$gulp_completion() {
+function tasks () {
     compls=$(grep -Eho "gulp\.task[^,]*" gulpfile.* 2>/dev/null | sed s/\"/\'/g | cut -d "'" -f 2 | sort)
 
     completions=(${=compls})
     compadd -- $completions
 }
 
-compdef $$gulp_completion gulp
+compdef tasks gulp

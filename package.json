@@ -1,6 +1,6 @@
 {
-  "name": "gulp-autocompletion-zsh",
-  "version": "0.1.4",
+  "name": "gulp.plugin.zsh",
+  "version": "1.0.0",
   "description": "Autocompletion support for your gulp.js tasks (zsh).",
   "author": {
     "name": "André König",
@@ -8,11 +8,11 @@
   },
   "license": "MIT",
   "scripts": {
-    "postinstall": "DEST=$HOME/.gulp-autocompletion-zsh; mkdir -p $DEST && ln -fs \"$PWD/gulp-autocompletion.zsh\" $DEST/gulp-autocompletion.zsh && echo source $DEST/gulp-autocompletion.zsh >> $HOME/.zshrc && echo \"All done! Please restart your zsh.\n\n\""
+    "postinstall": "DEST=$HOME/.gulp.plugin.zsh; mkdir -p $DEST && ln -fs \"$PWD/gulp.plugin.zsh\" $DEST/gulp.plugin.zsh && echo source $DEST/gulp.plugin.zsh >> $HOME/.zshrc && echo \"All done! Please restart your zsh.\n\n\""
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/akoenig/gulp-autocompletion-zsh"
+    "url": "git://github.com/akoenig/gulp.plugin.zsh"
   },
   "keywords": [
     "zsh",
@@ -21,7 +21,7 @@
     "gulp"
   ],
   "bugs": {
-    "url": "https://github.com/akoenig/gulp-autocompletion-zsh/issues"
+    "url": "https://github.com/akoenig/gulp.plugin.zsh/issues"
   },
-  "homepage": "https://github.com/akoenig/gulp-autocompletion-zsh"
+  "homepage": "https://github.com/akoenig/gulp.plugin.zsh"
 }
