@@ -42,5 +42,5 @@ Exemplary output:
 
 ## Author
 
-Copyright 2014-2015, [André König](http://iam.andrekoenig.info) (andre.koenig@posteo.de)
+Copyright 2014-2015, [André König](http://andrekoenig.info) (andre.koenig@posteo.de)
 
