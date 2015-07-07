@@ -8,7 +8,7 @@ Install with npm or manually.
 
 ### Via npm
 
-    $ npm install -g gulp.plugin.zsh
+    $ npm install -g gulp-autocompletion-zsh
 
 After that you have to restart your `zsh`.
 
