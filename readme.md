@@ -21,7 +21,7 @@ After that you have to restart your `zsh`.
 
 ```sh
 # Your .zshrc
-source $HOME/zsh-extensions/gulp.plugin.zsh/gulp-autocompletion.zsh
+source $HOME/zsh-extensions/gulp.plugin.zsh/gulp.plugin.zsh
 ```
 
 ### Via antigen
