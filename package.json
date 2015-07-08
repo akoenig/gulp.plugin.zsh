@@ -1,6 +1,6 @@
 {
   "name": "gulp.plugin.zsh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Autocompletion support for your gulp.js tasks (zsh).",
   "author": {
     "name": "André König",

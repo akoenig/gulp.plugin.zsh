@@ -1,4 +1,4 @@
-# UNRELEASED
+# 1.0.1 (2015-07-08)
 
   * readme fix
 
