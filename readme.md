@@ -1,3 +1,8 @@
+> [!NOTE]
+> This project is preserved as a historical open-source project. It is not actively maintained, and its dependencies or recommended practices may be outdated.
+>
+> I’m keeping it public because it may still be useful as reference material. If you rely on it in production, please review the code carefully and consider maintaining your own fork.
+
 # gulp.plugin.zsh
 
 > Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
@@ -43,4 +48,3 @@ Exemplary output:
 ## Author
 
 Copyright 2014-2015, [André König](http://andrekoenig.info) (andre.koenig@posteo.de)
-
