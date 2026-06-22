@@ -18,7 +18,7 @@
 # `gulpfile.coffee` in the current directory.
 #
 function tasks () {
-    compls=$(grep -Eho "gulp\.task[^,]*" gulpfile.* 2>/dev/null | sed s/\"/\'/g | cut -d "'" -f 2 | sort)
+    compls=$(grep -Eho "gulp\.task[^,]*" {G,g}ulpfile.* 2>/dev/null | sed s/\"/\'/g | cut -d "'" -f 2 | sort)
 
     completions=(${=compls})
     compadd -- $completions
